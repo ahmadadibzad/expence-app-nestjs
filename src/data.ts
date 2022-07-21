@@ -3,8 +3,8 @@ interface Data {
     id: string;
     source: string;
     amount: number;
-    createdAt: Date;
-    updatedAt: Date;
+    created_at: Date;
+    updated_at: Date;
     type: ReportType;
   }[];
 }
@@ -19,24 +19,24 @@ const report = [
     id: 'uuid1',
     source: 'Salary',
     amount: 7500,
-    createdAt: new Date(),
-    updatedAt: new Date(),
+    created_at: new Date(),
+    updated_at: new Date(),
     type: ReportType.INCOME,
   },
   {
     id: 'uuid2',
     source: 'YouTube',
     amount: 2500,
-    createdAt: new Date(),
-    updatedAt: new Date(),
+    created_at: new Date(),
+    updated_at: new Date(),
     type: ReportType.INCOME,
   },
   {
     id: 'uuid3',
     source: 'Food',
     amount: 500,
-    createdAt: new Date(),
-    updatedAt: new Date(),
+    created_at: new Date(),
+    updated_at: new Date(),
     type: ReportType.EXPENCE,
   },
 ];
